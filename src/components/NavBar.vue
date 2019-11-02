@@ -1,12 +1,12 @@
 <template>
   <div class="navbar">
-    <div>SafeTicket</div>
+    <div><router-link :to="{ path: '/' }">SafeTicket</router-link></div>
     <div></div>
-    <div>Home</div>
+    <div><router-link :to="{ path: '/' }">Home</router-link></div>
     <div>About</div>
     <div>Team</div>
-    <div>API</div>
-    <div>Demo</div>
+    <div><router-link :to="{ path: '/api' }">API</router-link></div>
+    <div><router-link :to="{ path: '/demo' }">Demo</router-link></div>
   </div>
 </template>
 
@@ -20,15 +20,22 @@ export default {
   .navbar {
     width: 100%;
     display: flex;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    z-index: 100;
   }
   .navbar > div {
-    border: 1px solid blue;
     text-align: center;
     flex-grow: 0;
     padding: 10px;
     font-size: 14px;
+    color: black;
   }
   .navbar > div:nth-child(2) {
     flex-grow: 1;
+  }
+  a {
+    text-decoration: none;
   }
 </style>

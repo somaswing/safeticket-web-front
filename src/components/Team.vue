@@ -9,7 +9,7 @@ export default {
   name: 'Team',
   data() {
     return {
-      msg: 'This is a home component',
+      msg: 'This is a team component',
     };
   },
 };

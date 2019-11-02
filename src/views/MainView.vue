@@ -1,6 +1,5 @@
 <template>
   <div class="api">
-    <h1>{{ msg }}</h1>
     <Home/>
     <About/>
     <Team/>
