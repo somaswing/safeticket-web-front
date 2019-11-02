@@ -15,9 +15,7 @@ export default {
   name: 'APIView',
   components: { Home, About, Team },
   data() {
-    return {
-      msg: 'This page is for Main',
-    };
+    return {};
   },
 };
 </script>

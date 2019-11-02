@@ -3,8 +3,8 @@
     <div><router-link :to="{ path: '/' }">SafeTicket</router-link></div>
     <div></div>
     <div><router-link :to="{ path: '/' }">Home</router-link></div>
-    <div>About</div>
-    <div>Team</div>
+    <div><router-link :to="{ path: '/#about' }">About</router-link></div>
+    <div><router-link :to="{ path: '/#team' }">Team</router-link></div>
     <div><router-link :to="{ path: '/api' }">API</router-link></div>
     <div><router-link :to="{ path: '/demo' }">Demo</router-link></div>
   </div>
