@@ -1,6 +1,5 @@
 <template>
   <div id="team">
-    <h2>{{ msg }}</h2>
   </div>
 </template>
 
@@ -19,7 +18,6 @@ export default {
   #team {
     width: 100%;
     height: 100vh;
-    background-color: cyan;
-    opacity: 0.3;
+    background-color: rgba(0, 255, 255, 0.3);
   }
 </style>

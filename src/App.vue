@@ -6,15 +6,19 @@
     <div id="container">
       <router-view/>
     </div>
+    <div id="footer">
+      <Footer/>
+    </div>
   </div>
 </template>
 
 <script>
 import NavBar from '@/components/NavBar';
+import Footer from '@/components/Footer';
 
 export default {
   name: 'App',
-  components: { NavBar },
+  components: { NavBar, Footer },
 };
 </script>
 
