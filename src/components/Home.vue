@@ -10,8 +10,8 @@
           fuga hic illum iure laborum nam perspiciatis provident</p>
       </div>
       <div>
-        <button>Start Demo</button>
-        <button>Go To APIs</button>
+        <button><router-link :to="{ path: '/demo' }">Start Demo</router-link></button>
+        <button><router-link :to="{ path: '/api' }">Go To APIs</router-link></button>
       </div>
     </div>
     <div class="homeImage"></div>
@@ -30,6 +30,9 @@ export default {
 </script>
 
 <style scoped>
+  a {
+    text-decoration: none;
+  }
   #home {
     width: 100%;
     height: 100vh;
