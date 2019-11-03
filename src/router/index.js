@@ -7,36 +7,39 @@ import DemoView from '@/views/DemoView';
 Vue.use(Router);
 
 const scrollBehavior = (to, from, savedPosition) => {
+  const position = {};
   if (savedPosition) {
     return savedPosition;
-  } else {
-    const position = {};
-    // new navigation.
-    // scroll to anchor by returning the selector
-    if (to.hash) {
-      position.selector = to.hash;
-
-      // specify offset of the element
-      if (to.hash === '#about') {
-        position.offset = { y: 0 };
-      }
-
-      if (to.hash === '#team') {
-        position.offset = { y: 0 };
-      }
-    }
-    // check if any matched route config has meta that requires scrolling to top
-    if (to.matched.some(m => m.meta.scrollToTop)) {
-      // cords will be used if no selector is provided,
-      // or if the selector didn't match any element.
-      position.x = 0;
-      position.y = 0;
-    }
-    // if the returned position is falsy or an empty object,
-    // will retain current scroll position.
-    return position;
   }
-}
+  // new navigation.
+  // scroll to anchor by returning the selector
+  if (to.hash) {
+    position.selector = to.hash;
+
+    // specify offset of the element
+    if (to.hash === '#about') {
+      position.offset = { y: 0 };
+    }
+
+    if (to.hash === '#tech') {
+      position.offset = { y: 0 };
+    }
+
+    if (to.hash === '#team') {
+      position.offset = { y: 0 };
+    }
+  }
+  // check if any matched route config has meta that requires scrolling to top
+  if (to.matched.some(m => m.meta.scrollToTop)) {
+    // cords will be used if no selector is provided,
+    // or if the selector didn't match any element.
+    position.x = 0;
+    position.y = 0;
+  }
+  // if the returned position is falsy or an empty object,
+  // will retain current scroll position.
+  return position;
+};
 
 export default new Router({
   mode: 'history',

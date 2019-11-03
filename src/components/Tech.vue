@@ -1,11 +1,11 @@
 <template>
-  <div id="team">
+  <div id="tech">
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Team',
+  name: 'Tech',
   data() {
     return {};
   },
@@ -13,9 +13,9 @@ export default {
 </script>
 
 <style scoped>
-  #team {
+  #tech {
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 255, 255, 0.3);
+    background-color: rgba(128, 0, 128, 0.3);
   }
 </style>
