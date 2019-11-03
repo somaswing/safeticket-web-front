@@ -5,23 +5,23 @@
       <div class="member">
         <img src="@/assets/logo.png" alt="img">
         <p class="member_name">김동준</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque blanditiis commodi consectetur deleniti
-          dignissimos distinctio fugit, illo labore libero natus nemo officia optio pariatur possimus quam qui,
-          voluptate. Architecto?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque blanditiis
+          commodi consectetur deleniti dignissimos distinctio fugit, illo labore
+          libero natus nemo officia optio pariatur possimus quam qui, voluptate. Architecto?</p>
       </div>
       <div class="member">
         <img src="@/assets/logo.png" alt="img">
         <p class="member_name">김문서</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque blanditiis commodi consectetur deleniti
-          dignissimos distinctio fugit, illo labore libero natus nemo officia optio pariatur possimus quam qui,
-          voluptate. Architecto?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque blanditiis
+          commodi consectetur deleniti dignissimos distinctio fugit, illo labore
+          libero natus nemo officia optio pariatur possimus quam qui, voluptate. Architecto?</p>
       </div>
       <div class="member">
         <img src="@/assets/logo.png" alt="img">
         <p class="member_name">오원종</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque blanditiis commodi consectetur deleniti
-          dignissimos distinctio fugit, illo labore libero natus nemo officia optio pariatur possimus quam qui,
-          voluptate. Architecto?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque blanditiis
+          commodi consectetur deleniti dignissimos distinctio fugit, illo labore
+          libero natus nemo officia optio pariatur possimus quam qui, voluptate. Architecto?</p>
       </div>
     </div>
   </div>
