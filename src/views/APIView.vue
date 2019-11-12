@@ -1,6 +1,6 @@
 <template>
   <div class="api">
-    <h1>{{ msg }}</h1>
+    <div class="space"><p>{{ msg }}</p></div>
     <APIs/>
   </div>
 </template>
@@ -20,5 +20,7 @@ export default {
 </script>
 
 <style scoped>
-
+  .space {
+    height: 4px;
+  }
 </style>

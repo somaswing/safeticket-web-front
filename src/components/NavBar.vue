@@ -20,6 +20,7 @@ export default {
 <style scoped>
   .navbar {
     width: 100%;
+    height: 80px;
     display: flex;
     overflow: hidden;
     background-color: white;
@@ -30,11 +31,21 @@ export default {
     text-align: center;
     flex-grow: 0;
     padding: 10px;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
     color: black;
+    margin: auto;
+  }
+  .navbar > div:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 100px;
   }
   .navbar > div:nth-child(2) {
     flex-grow: 1;
+  }
+  .navbar > div:last-child {
+    margin-right: 100px;
   }
   a {
     text-decoration: none;

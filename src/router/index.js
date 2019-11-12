@@ -18,15 +18,15 @@ const scrollBehavior = (to, from, savedPosition) => {
 
     // specify offset of the element
     if (to.hash === '#about') {
-      position.offset = { y: 0 };
+      position.offset = { y: 80 };
     }
 
     if (to.hash === '#tech') {
-      position.offset = { y: 0 };
+      position.offset = { y: 80 };
     }
 
     if (to.hash === '#team') {
-      position.offset = { y: 0 };
+      position.offset = { y: 80 };
     }
   }
   // check if any matched route config has meta that requires scrolling to top
