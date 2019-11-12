@@ -23,7 +23,7 @@ export default {
     height: 80px;
     display: flex;
     overflow: hidden;
-    background-color: white;
+    background-color: transparent;
     position: fixed;
     z-index: 100;
   }
