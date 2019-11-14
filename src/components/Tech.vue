@@ -2,7 +2,7 @@
   <div id="tech">
     <div class="blockchain">
       <div class="tech_image">
-        <img src="@/assets/logo.png" alt="img">
+        <img src="@/assets/img-chain@2x.png" alt="img">
       </div>
       <div class="explain">
         <div class="tech_title">BlockChain</div>
@@ -19,7 +19,7 @@
           maxime numquam possimus quas quisquam sit. Magni, vitae.</div>
       </div>
       <div class="tech_image">
-        <img src="@/assets/logo.png" alt="img">
+        <img src="@/assets/img-id@2x.png" alt="img">
       </div>
     </div>
   </div>
@@ -36,9 +36,10 @@ export default {
 
 <style scoped>
   #tech {
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(128, 0, 128, 0.3);
+    max-width: 100%;
+    max-height: 100vh;
+    padding: 50px 200px;
+    background-image: url("../assets/bg-s@2x.png");
   }
   #tech > div {
     display: flex;
