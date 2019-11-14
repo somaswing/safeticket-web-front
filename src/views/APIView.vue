@@ -1,6 +1,5 @@
 <template>
   <div class="api">
-    <div class="space"><p>{{ msg }}</p></div>
     <APIs/>
   </div>
 </template>
@@ -12,9 +11,7 @@ export default {
   name: 'APIView',
   components: { APIs },
   data() {
-    return {
-      msg: 'This page is for API',
-    };
+    return {};
   },
 };
 </script>

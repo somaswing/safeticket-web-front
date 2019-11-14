@@ -6,17 +6,16 @@
         <img src="@/assets/img-profile-1@2x.png" alt="img">
         <p class="member_name">김동준 <span>팀장</span></p>
         <div class="description">
-          <p>백엔드 및 모바일 어플리케이션 개발</p>
+          <p>백엔드 및 <br>모바일 어플리케이션 개발</p>
           <p>Java, C++, Javascript</p>
-          <p>감정인식 알고리즘을 통한 액자 어플리케이션
-            청각장애인을 위한 홈 IoT 개발 경</p>
+          <p>감정인식 알고리즘을 통한 액자 어플리케이션 청각장애인을 위한 홈 IoT 개발 경험</p>
         </div>
       </div>
       <div class="member">
         <img src="@/assets/img-profile-2@2x.png" alt="img">
         <p class="member_name">김문서 <span>팀원</span></p>
         <div class="description">
-          <p>블록체인 네트워크 개발 및 프론트엔드 개발</p>
+          <p>블록체인 네트워크 및 <br>모바일 어플리케이션 개발</p>
           <p>C++, Java, Node.js</p>
           <p class="small">블록체인을 활용한 교내 전자 투표 및 설문조사 시스템 개발 경험</p>
           <p class="small">머신러닝을 이용한 사용자 음성 감정 분석 시스템 개발 경험</p>

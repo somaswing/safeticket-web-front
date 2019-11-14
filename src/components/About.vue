@@ -92,7 +92,7 @@ export default {
   .customer > div > div:nth-child(2) {
     margin: 0 auto;
     width: 45%;
-    min-height: 220px;
+    min-height: 280px;
   }
   .customer > div > div:nth-child(2) > img {
     width: 100%;
